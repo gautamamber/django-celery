@@ -69,6 +69,13 @@ TEMPLATES = [
     },
 ]
 
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'gautamamber5@gmail.com'
+EMAIL_HOST_PASSWORD = 'ambergautam1998'
+EMAIL_PORT = 587
+
+
 WSGI_APPLICATION = 'quick_publisher.wsgi.application'
 
 
